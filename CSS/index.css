@@ -1,6 +1,6 @@
 .inline-block {
     display: inline-block;
-    vertical-align: top;
+    align-content: top;
 }
 
 .logo {
@@ -10,7 +10,7 @@
 }
 
 #nav {
-    width: 73%;
+    width: 100%;
     padding: 1%;
 }
 
@@ -31,7 +31,7 @@
 }
 
 #footer {
-    background-color: #373738;
+    background-color: rgb(200, 198, 198);
     padding: 1%;
 }
 
@@ -39,4 +39,8 @@
     display: inline-block;
     vertical-align: top;
     padding: 1%;
+}
+
+.inline-block {
+    background-color: rgb(200, 198, 198);
 }
